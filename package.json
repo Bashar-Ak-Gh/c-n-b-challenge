@@ -5,7 +5,6 @@
   "scripts": {
     "start": "node lib/index.js",
     "postinstall": "tsc && cd client && npm install && npm run build",
-    "watch-node": "nodemon lib/app.js",
     "dev": "concurrently --kill-others \"nodemon --watch src/app.ts\" \"cd client && npm run start\""
   },
   "keywords": [],
